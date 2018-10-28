@@ -1,1 +1,1 @@
-web: gunicorn runserver:app
+web: gunicorn api/bankingbot_api:app
